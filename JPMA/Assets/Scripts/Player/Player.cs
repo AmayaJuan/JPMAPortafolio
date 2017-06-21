@@ -4,7 +4,6 @@ public class Player : MonoBehaviour
 {
     float speed = 4f;
     float movement = 0;
-    float newX;
 
     Rigidbody2D rb;
     Animator animator;
