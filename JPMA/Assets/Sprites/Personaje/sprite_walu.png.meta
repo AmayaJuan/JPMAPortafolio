@@ -1,23 +1,35 @@
 fileFormatVersion: 2
-guid: b0a05f4b3af9f5e459b4fdd3be92b056
-timeCreated: 1498026671
+guid: c5d57e98257e9d94496f80eb0048b393
+timeCreated: 1499130853
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: sprite_walu_0
-    21300002: sprite_walu_1
-    21300004: sprite_walu_2
-    21300006: sprite_walu_3
-    21300008: sprite_walu_4
-    21300010: sprite_walu_5
-    21300012: sprite_walu_6
-    21300014: sprite_walu_7
-    21300016: sprite_walu_8
-    21300018: sprite_walu_9
-    21300020: sprite_walu_10
-    21300022: sprite_walu_11
-    21300024: sprite_walu_12
-    21300026: sprite_walu_13
+    21300000: Walu_0
+    21300002: Walu_1
+    21300004: Walu_2
+    21300006: Walu_3
+    21300008: Walu_4
+    21300010: Walu_5
+    21300012: Walu_6
+    21300014: Walu_7
+    21300016: Walu_8
+    21300018: Walu_9
+    21300020: Walu_10
+    21300022: Walu_11
+    21300024: Walu_12
+    21300026: Walu_13
+    21300028: Walu_14
+    21300030: Sprite_Walu_15
+    21300032: Sprite_Walu_16
+    21300034: Walu_17
+    21300036: Walu_18
+    21300038: Walu_19
+    21300040: Sprite_Walu_20
+    21300042: Walu_21
+    21300044: Walu_22
+    21300046: Sprite_Walu_23
+    21300048: Walu_24
+    21300050: Walu_25
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -54,7 +66,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 120
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -65,7 +77,7 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 1024
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -73,7 +85,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 1024
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -81,7 +93,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: iPhone
-    maxTextureSize: 512
+    maxTextureSize: 1024
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -89,7 +101,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: tvOS
-    maxTextureSize: 512
+    maxTextureSize: 1024
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -97,7 +109,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Android
-    maxTextureSize: 512
+    maxTextureSize: 1024
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -105,7 +117,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Windows Store Apps
-    maxTextureSize: 512
+    maxTextureSize: 1024
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -113,7 +125,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: WebGL
-    maxTextureSize: 512
+    maxTextureSize: 1024
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -124,182 +136,286 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite_walu_0
+      name: Walu_0
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1286
-        width: 147
-        height: 730
+        x: 192
+        y: 695
+        width: 120
+        height: 277
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprite_walu_1
+      name: Walu_1
       rect:
         serializedVersion: 2
-        x: 318
-        y: 1284
-        width: 154
-        height: 732
+        x: 420
+        y: 692
+        width: 69
+        height: 280
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprite_walu_2
+      name: Walu_2
       rect:
         serializedVersion: 2
-        x: 548
-        y: 1284
-        width: 220
-        height: 732
+        x: 563
+        y: 694
+        width: 101
+        height: 278
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprite_walu_3
+      name: Walu_3
       rect:
         serializedVersion: 2
-        x: 840
-        y: 1282
-        width: 236
-        height: 734
+        x: 775
+        y: 692
+        width: 73
+        height: 280
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprite_walu_4
+      name: Walu_4
       rect:
         serializedVersion: 2
-        x: 1155
-        y: 1281
-        width: 248
-        height: 737
+        x: 901
+        y: 694
+        width: 92
+        height: 278
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprite_walu_5
+      name: Walu_5
       rect:
         serializedVersion: 2
-        x: 1460
-        y: 1287
-        width: 244
-        height: 726
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sprite_walu_6
-      rect:
-        serializedVersion: 2
-        x: 1740
-        y: 1286
-        width: 260
-        height: 730
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sprite_walu_7
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 519
-        width: 284
-        height: 737
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sprite_walu_8
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 520
+        x: 1026
+        y: 694
         width: 237
-        height: 733
+        height: 141
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprite_walu_9
+      name: Walu_6
       rect:
         serializedVersion: 2
-        x: 684
-        y: 520
-        width: 210
-        height: 736
+        x: 1316
+        y: 692
+        width: 160
+        height: 280
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprite_walu_10
+      name: Walu_7
       rect:
         serializedVersion: 2
-        x: 992
-        y: 524
-        width: 182
-        height: 728
+        x: 1509
+        y: 691
+        width: 126
+        height: 338
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprite_walu_11
+      name: Walu_8
       rect:
         serializedVersion: 2
-        x: 1262
-        y: 523
-        width: 172
-        height: 733
+        x: 1680
+        y: 691
+        width: 148
+        height: 337
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprite_walu_12
+      name: Walu_9
       rect:
         serializedVersion: 2
-        x: 1518
-        y: 524
-        width: 172
-        height: 732
+        x: 192
+        y: 336
+        width: 161
+        height: 306
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprite_walu_13
+      name: Walu_10
       rect:
         serializedVersion: 2
-        x: 1773
-        y: 521
-        width: 189
-        height: 731
+        x: 364
+        y: 347
+        width: 249
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walu_11
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 353
+        width: 270
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walu_12
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 355
+        width: 319
+        height: 161
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walu_13
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 355
+        width: 309
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walu_14
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 359
+        width: 248
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walu_17
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 54
+        width: 112
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walu_18
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 56
+        width: 115
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walu_19
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 52
+        width: 216
+        height: 257
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walu_21
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 56
+        width: 216
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walu_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 52
+        width: 211
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walu_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 206
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walu_25
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 93
+        width: 202
+        height: 177
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
